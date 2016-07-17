@@ -4,7 +4,7 @@ var jade = require('gulp-jade');
 var rjs = require('gulp-requirejs');
 // add required packages
 var sass = require('gulp-sass');
-//var uglify = require('gulp-uglifyjs');		//Uncomment for second variant of uglification
+//var uglify = require('gulp-uglifyjs');	//Uncomment for second variant of uglification
 var uglify = require('gulp-uglify');
 
 gulp.task('connect', function() {
